@@ -223,7 +223,7 @@ const LandingPage = () => {
         className=" bg-cover  bg-center"
         style={{ backgroundImage: `url(${Roadmap})` }}
       >
-        <div className=" max-w-6xl mx-10 md:mx-auto py-[20px]">
+        <div className=" max-w-6xl mx-10 md:mx-auto pt-[30px] pb-[70px]">
           <div className=" ">
             <div className="text-white font-[800]  text-left">
               <p className="cursor-pointer text-center text-[30px] md:text-[60px] lg:text-[80px] text-white glow">
