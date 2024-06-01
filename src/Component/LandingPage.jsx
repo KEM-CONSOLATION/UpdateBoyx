@@ -85,7 +85,7 @@ const LandingPage = () => {
             </div>
 
             <div className="font-[800] text-white mt-[100px] text-center mb-[100px]">
-              <p className="animate-pulse text-[30px] md:text-[80px]">
+              <p className=" text-[30px] md:text-[80px]">
                 WE ARE UPDATE <span className="text-[#0CC0DF]">BOYX</span>{" "}
               </p>
               <p className="text-[30px] md:text-[60px]">We are Liquidity</p>
