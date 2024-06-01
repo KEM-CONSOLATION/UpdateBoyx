@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import AOS from "aos";
 import HeroImage from "../assets/HeroImage.png";
-import LaunchImage from "../assets/LaunchImage.png";
-import Tokenomics from "../assets/Tokenomics.png";
+import Roadmap from "../assets/Roadmap.png";
+import LaunchImage from "../assets/Launch.jpg";
+import Tokenomics from "../assets/Tokenomics.jpg";
 import Logo from "../assets/Logo.png";
-import Button from "../assets/Button.png";
 import "aos/dist/aos.css";
 import { RiArrowUpDoubleLine } from "react-icons/ri";
 
@@ -52,12 +52,25 @@ const LandingPage = () => {
         `}
       </style>
       <div
-        className="h-screen bg-cover bg-center"
+        className=" bg-cover bg-center"
         style={{ backgroundImage: `url(${HeroImage})` }}
       >
         <div className=" flex items-center justify-center">
           <div className=" ">
-            <div className="grid place-items-center md:flex items-center md:justify-center gap-[36px]">
+            <div className=" my-[20px] flex place-items-center md:hidden items-center md:justify-center gap-[10px]">
+              <div>
+                <img src={Logo} alt="" className=" w-[80px] h-[80px]" />
+              </div>
+              <div className="text-white font-[800] text-left">
+                <p className="cursor-pointer text-[30px] md:text-[60px] lg:text-[100px] text-white glow">
+                  UPDATE <span className="text-[#0CC0DF] glow">BOYX</span>
+                </p>
+                <p className="text-[14px] md:text-[45px]">
+                  Protocol in Place, Respect in Order!
+                </p>
+              </div>
+            </div>
+            <div className="hidden place-items-center md:flex items-center md:justify-center gap-[36px]">
               <div>
                 <img src={Logo} alt="" />
               </div>
@@ -78,7 +91,7 @@ const LandingPage = () => {
               <p className="text-[30px] md:text-[60px]">We are Liquidity</p>
             </div>
 
-            <div className=" pb-[50px] flex items-center justify-center animate-pulse">
+            <div className=" mb-[50px] flex items-center justify-center animate-pulse">
               <p className=" rounded-[15px] text-[30px] inline text-center md:text-[40px] font-[800] bg-[#FF3131] text-white px-[49px] py-[16px]">
                 BUY $BOYX
               </p>
@@ -87,7 +100,7 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <div className="  bg-[#190C18] ">
+      <div className="  bg-[#190C18] py-[50px]">
         <div
           className=" mx-[10px] lg:mx-[40px] py-[20px] tracking-widest"
           data-aos="fade-up"
@@ -141,6 +154,84 @@ const LandingPage = () => {
                   BUY $BOYX
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className=" bg-cover  bg-center"
+        style={{ backgroundImage: `url(${LaunchImage})` }}
+      >
+        <div className=" flex items-center justify-center">
+          <div className=" ">
+            <div className="text-white font-[800]  text-left">
+              <p className="cursor-pointer text-center text-[30px] md:text-[60px] lg:text-[80px] text-white glow">
+                LAUNCH <span className="text-[#0CC0DF] glow">PROTOCOL</span>
+              </p>
+            </div>
+
+            <div className="font-[800] text-white mt-[400px] mb-[100px] text-center">
+              <p className="text-[14px] md:text-[45px]">
+                Anonymously created{" "}
+                <span className="text-[#0CC0DF] glow">$BOYX</span> for
+                everyone...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className=" bg-cover  bg-center"
+        style={{ backgroundImage: `url(${Tokenomics})` }}
+      >
+        <div className=" max-w-5xl mx-10 md:mx-auto py-[20px]">
+          <div className=" ">
+            <div className="text-white font-[800]  text-left">
+              <p className="cursor-pointer text-center text-[30px] md:text-[60px] lg:text-[80px] text-white glow">
+                TOKENOMICS
+              </p>
+            </div>
+
+            <div className="font-[800] text-[20px] lg:text-[40px] text-white text-left">
+              <p>
+                Max Supply: 1 BILLION{" "}
+                <span className=" text-[#0CC0DF]">$BOYX</span>
+              </p>{" "}
+              <p>Total Supply: 1,000,000,000</p>
+              <p>Circulating Supply: 990,000,000 </p>
+              <p>10% Airdrop: to the Solana Community Contract Revoked</p>
+              <p> Liquidity Locked and Burned </p>{" "}
+              <p>Zero Boyx Allocation Benefits</p>
+              <p> Zero Boyx Presale Benefits </p>
+              <p>Zero Taxes Benefits </p>
+              <p>Auto Burn Mechanism (TBM): Automatic </p>
+              <p>Burn Rate: 10%, 10 Hrs Post Launch</p>
+            </div>
+
+            <div className=" my-[50px] flex items-center justify-center animate-pulse">
+              <p className=" rounded-[15px] text-[30px] inline text-center md:text-[40px] font-[800] bg-[#FF3131] text-white px-[49px] py-[16px]">
+                BUY $BOYX
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className=" bg-cover  bg-center"
+        style={{ backgroundImage: `url(${Roadmap})` }}
+      >
+        <div className=" max-w-6xl mx-10 md:mx-auto py-[20px]">
+          <div className=" ">
+            <div className="text-white font-[800]  text-left">
+              <p className="cursor-pointer text-center text-[30px] md:text-[60px] lg:text-[80px] text-white glow">
+                ROADMAP
+              </p>
+              <p className=" text-[18px] text-center md:text-[45px] font-[800]">
+                Pump $BOYX to a Billion Dollar MarketCap, then...
+              </p>
             </div>
           </div>
         </div>
