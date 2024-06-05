@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         inter: ["inter", "sans-serif"],
+        Space: ["Space Grotesk", "sans-serif"],
       },
     },
   },

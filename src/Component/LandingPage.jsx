@@ -63,7 +63,7 @@ const LandingPage = () => {
               </div>
               <div className="text-white font-[800] text-left">
                 <p className="cursor-pointer text-[30px] md:text-[60px] lg:text-[100px] text-white glow">
-                  UPDATE <span className="text-[#0CC0DF] glow">BOYX</span>
+                  UPDATE <span className="text-[#0CC0DF] ">BOYX</span>
                 </p>
                 <p className="text-[14px] md:text-[45px]">
                   Protocol in Place, Respect in Order!
@@ -75,8 +75,8 @@ const LandingPage = () => {
                 <img src={Logo} alt="" />
               </div>
               <div className="text-white font-[800] text-center">
-                <p className="cursor-pointer text-[50px] md:text-[60px] lg:text-[100px] text-white glow">
-                  UPDATE <span className="text-[#0CC0DF] glow">BOYX</span>
+                <p className="  cursor-pointer text-[50px] md:text-[60px] lg:text-[100px] text-white">
+                  UPDATE <span className="text-[#0CC0DF] ">BOYX</span>
                 </p>
                 <p className="text-[20px] md:text-[45px]">
                   Protocol in Place, Respect in Order!
@@ -160,17 +160,17 @@ const LandingPage = () => {
       </div>
 
       <div
-        className=" bg-cover  bg-center"
+        className="relative bg-cover bg-center"
         style={{ backgroundImage: `url(${LaunchImage})` }}
       >
-        <div className=" flex items-center justify-center">
-          <div className=" ">
-            <div className="text-white font-[800]  text-left">
+        <div className="absolute inset-0 bg-black opacity-50"></div>{" "}
+        <div className="relative flex items-center justify-center">
+          <div>
+            <div className="text-white font-[800] text-left">
               <p className="cursor-pointer text-center text-[30px] md:text-[60px] lg:text-[80px] text-white glow">
                 LAUNCH <span className="text-[#0CC0DF] glow">PROTOCOL</span>
               </p>
             </div>
-
             <div className="font-[800] text-white mt-[400px] mb-[100px] text-center">
               <p className="text-[14px] md:text-[45px]">
                 Anonymously created{" "}
@@ -183,12 +183,13 @@ const LandingPage = () => {
       </div>
 
       <div
-        className=" bg-cover  bg-center"
+        className="relative bg-cover bg-center"
         style={{ backgroundImage: `url(${Tokenomics})` }}
       >
-        <div className=" max-w-5xl mx-10 md:mx-auto py-[20px]">
-          <div className=" ">
-            <div className="text-white font-[800]  text-left">
+        <div className="absolute inset-0 bg-black opacity-70 pointer-events-none"></div>{" "}
+        <div className="relative max-w-5xl mx-10 md:mx-auto py-[20px]">
+          <div>
+            <div className="text-white font-[800] text-left">
               <p className="cursor-pointer text-center text-[30px] md:text-[60px] lg:text-[80px] text-white glow">
                 TOKENOMICS
               </p>
@@ -197,21 +198,21 @@ const LandingPage = () => {
             <div className="font-[800] text-[20px] lg:text-[40px] text-white text-left">
               <p>
                 Max Supply: 1 BILLION{" "}
-                <span className=" text-[#0CC0DF]">$BOYX</span>
-              </p>{" "}
+                <span className="text-[#0CC0DF]">$BOYX</span>
+              </p>
               <p>Total Supply: 1,000,000,000</p>
-              <p>Circulating Supply: 990,000,000 </p>
+              <p>Circulating Supply: 990,000,000</p>
               <p>10% Airdrop: to the Solana Community Contract Revoked</p>
-              <p> Liquidity Locked and Burned </p>{" "}
+              <p>Liquidity Locked and Burned</p>
               <p>Zero Boyx Allocation Benefits</p>
-              <p> Zero Boyx Presale Benefits </p>
-              <p>Zero Taxes Benefits </p>
-              <p>Auto Burn Mechanism (TBM): Automatic </p>
+              <p>Zero Boyx Presale Benefits</p>
+              <p>Zero Taxes Benefits</p>
+              <p>Auto Burn Mechanism (TBM): Automatic</p>
               <p>Burn Rate: 10%, 10 Hrs Post Launch</p>
             </div>
 
-            <div className=" my-[50px] flex items-center justify-center animate-pulse">
-              <p className=" rounded-[15px] text-[30px] inline text-center md:text-[40px] font-[800] bg-[#FF3131] text-white px-[49px] py-[16px]">
+            <div className="my-[50px] flex items-center justify-center animate-pulse">
+              <p className="rounded-[15px] text-[30px] inline text-center md:text-[40px] font-[800] bg-[#FF3131] text-white px-[49px] py-[16px]">
                 BUY $BOYX
               </p>
             </div>
