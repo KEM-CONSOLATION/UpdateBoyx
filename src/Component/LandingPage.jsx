@@ -62,7 +62,7 @@ const LandingPage = () => {
                 <img src={Logo} alt="" className=" w-[80px] h-[80px]" />
               </div>
               <div className="text-white font-[800] text-left">
-                <p className="cursor-pointer text-[30px] md:text-[60px] lg:text-[100px] text-white glow">
+                <p className="cursor-pointer text-[35px] md:text-[60px] lg:text-[100px] text-white glow">
                   UPDATE <span className="text-[#0CC0DF] ">BOYX</span>
                 </p>
                 <p className="text-[14px] md:text-[45px]">
@@ -106,12 +106,12 @@ const LandingPage = () => {
           data-aos="fade-up"
         >
           <p className=" uppercase lg:text-[56px] font-[600] text-[40px] text-[#ffffff] py-[20px] text-center">
-            How to Bridge to Base
+            How to Buy
           </p>
 
-          <div className=" font-bold text-[16px] grid gap-[22px] mx-[10px] md:mx-0 md:grid-cols-2 lg:grid-cols-3 items-start place-items-center text-white  lg:text-[20px]">
+          <div className=" font-bold text-[20px] lg:text-[25px] grid gap-[22px] mx-[10px] md:mx-0 md:grid-cols-2 lg:grid-cols-3 items-start place-items-center text-white ">
             <div className=" max-w-[400px] grid gap-[20px] text-justify">
-              <p className="  uppercase text-[#ffffff]">Step 1</p>
+              <p className="  uppercase text-blue-500">Step 1</p>
               <p className=" text-[#ffffff] ">
                 Set up a crypto wallet on the Base network using Coinbase
                 Wallet. If you&apos;re using a different wallet like MetaMask,
@@ -120,7 +120,7 @@ const LandingPage = () => {
             </div>
 
             <div className=" max-w-[400px] grid gap-[20px] text-justify">
-              <p className=" font-bold uppercase text-[#ffffff]">Step 2</p>
+              <p className=" font-bold uppercase text-blue-500">Step 2</p>
               <p className=" text-[#ffffff] ">
                 Transfer Ethereum (ETH) directly to your Base network wallet or
                 send it to your Ethereum wallet and bridge ETH to Base via the
@@ -128,7 +128,7 @@ const LandingPage = () => {
               </p>
             </div>
             <div className=" max-w-[400px] grid gap-[20px] text-justify">
-              <p className=" font-bold uppercase text-[#ffffff]">Step 3</p>
+              <p className=" font-bold uppercase text-blue-500">Step 3</p>
               <p className=" text-[#ffffff] ">
                 Visit Matcha, an onchain liquidity swap aggregator that allows
                 you to trade supported Base currencies. Ensure your wallet is
@@ -172,7 +172,7 @@ const LandingPage = () => {
               </p>
             </div>
             <div className="font-[800] text-white mt-[400px] mb-[100px] text-center">
-              <p className="text-[14px] md:text-[45px]">
+              <p className="text-[20px] md:text-[45px]">
                 Anonymously created{" "}
                 <span className="text-[#0CC0DF] glow">$BOYX</span> for
                 everyone...
@@ -201,14 +201,15 @@ const LandingPage = () => {
                 <span className="text-[#0CC0DF]">$BOYX</span>
               </p>
               <p>Total Supply: 1,000,000,000</p>
-              <p>Circulating Supply: 990,000,000</p>
+              <p>Circulating Supply 1,000,000,000</p>
               <p>10% Airdrop: to the Solana Community Contract Revoked</p>
+              <p>Separate community and contract revoked</p>
               <p>Liquidity Locked and Burned</p>
               <p>Zero Boyx Allocation Benefits</p>
               <p>Zero Boyx Presale Benefits</p>
               <p>Zero Taxes Benefits</p>
-              <p>Auto Burn Mechanism (TBM): Automatic</p>
-              <p>Burn Rate: 10%, 10 Hrs Post Launch</p>
+              {/* <p>Auto Burn Mechanism (TBM): Automatic</p> */}
+              {/* <p>Burn Rate: 10%, 10 Hrs Post Launch</p> */}
             </div>
 
             <div className="my-[50px] flex items-center justify-center animate-pulse">
@@ -228,10 +229,13 @@ const LandingPage = () => {
           <div className=" ">
             <div className="text-white font-[800]  text-left">
               <p className="cursor-pointer text-center text-[30px] md:text-[60px] lg:text-[80px] text-white glow">
-                ROADMAP
+                WARNING
               </p>
-              <p className=" text-[18px] text-center md:text-[45px] font-[800]">
-                Pump $BOYX to a Billion Dollar MarketCap, then...
+              <p className=" text-[18px] text-center md:text-[40px] font-[800]">
+                This crypto project and website, is not associated with or
+                endorsed by anonymous. It was created solely for entertainment
+                purposes. There is no promise of financial returns . It has no
+                intrinsic value . There is no formal Team or official Roadmap
               </p>
             </div>
           </div>
