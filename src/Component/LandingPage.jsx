@@ -111,7 +111,7 @@ const LandingPage = () => {
 
           <div className=" font-bold text-[20px] lg:text-[25px] grid gap-[22px] mx-[10px] md:mx-0 md:grid-cols-2 lg:grid-cols-3 items-start place-items-center text-white ">
             <div className=" max-w-[400px] grid gap-[20px] text-justify">
-              <p className="  uppercase text-blue-500">Step 1</p>
+              <p className="  uppercase text-[#0CC0DF]">Step 1</p>
               <p className=" text-[#ffffff] ">
                 Set up a crypto wallet on the Base network using Coinbase
                 Wallet. If you&apos;re using a different wallet like MetaMask,
@@ -120,7 +120,7 @@ const LandingPage = () => {
             </div>
 
             <div className=" max-w-[400px] grid gap-[20px] text-justify">
-              <p className=" font-bold uppercase text-blue-500">Step 2</p>
+              <p className=" font-bold uppercase text-[#0CC0DF]">Step 2</p>
               <p className=" text-[#ffffff] ">
                 Transfer Ethereum (ETH) directly to your Base network wallet or
                 send it to your Ethereum wallet and bridge ETH to Base via the
@@ -128,7 +128,7 @@ const LandingPage = () => {
               </p>
             </div>
             <div className=" max-w-[400px] grid gap-[20px] text-justify">
-              <p className=" font-bold uppercase text-blue-500">Step 3</p>
+              <p className=" font-bold uppercase text-[#0CC0DF]">Step 3</p>
               <p className=" text-[#ffffff] ">
                 Visit Matcha, an onchain liquidity swap aggregator that allows
                 you to trade supported Base currencies. Ensure your wallet is
@@ -202,14 +202,12 @@ const LandingPage = () => {
               </p>
               <p>Total Supply: 1,000,000,000</p>
               <p>Circulating Supply 1,000,000,000</p>
-              <p>10% Airdrop: to the Solana Community Contract Revoked</p>
-              <p>Separate community and contract revoked</p>
+              <p>10% Airdrop: to the Solana Community </p>
+              <p> Contract Revoked</p>
               <p>Liquidity Locked and Burned</p>
               <p>Zero Boyx Allocation Benefits</p>
               <p>Zero Boyx Presale Benefits</p>
               <p>Zero Taxes Benefits</p>
-              {/* <p>Auto Burn Mechanism (TBM): Automatic</p> */}
-              {/* <p>Burn Rate: 10%, 10 Hrs Post Launch</p> */}
             </div>
 
             <div className="my-[50px] flex items-center justify-center animate-pulse">
