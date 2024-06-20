@@ -4,7 +4,7 @@ import HeroImage from "../assets/HeroImage.png";
 import Roadmap from "../assets/Roadmap.png";
 import LaunchImage from "../assets/Launch.jpg";
 import Tokenomics from "../assets/Tokenomics.jpg";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/Logo.jpg";
 import "aos/dist/aos.css";
 import { RiArrowUpDoubleLine } from "react-icons/ri";
 
@@ -58,8 +58,8 @@ const LandingPage = () => {
         <div className=" flex items-center justify-center">
           <div className=" ">
             <div className=" my-[20px] flex place-items-center md:hidden items-center md:justify-center gap-[10px]">
-              <div>
-                <img src={Logo} alt="" className=" w-[80px] h-[80px]" />
+              <div className=" w-[100px] h-[100px] rounded-full overflow-hidden">
+                <img src={Logo} alt="" className="  w-full object-fill" />
               </div>
               <div className="text-white font-[800] text-left">
                 <p className="cursor-pointer text-[35px] md:text-[60px] lg:text-[100px] text-white glow">
@@ -71,8 +71,8 @@ const LandingPage = () => {
               </div>
             </div>
             <div className="hidden place-items-center md:flex items-center md:justify-center gap-[36px]">
-              <div>
-                <img src={Logo} alt="" />
+              <div className=" w-[100px] h-[100px] rounded-full overflow-hidden">
+                <img src={Logo} alt="" className="  w-full object-fill" />
               </div>
               <div className="text-white font-[800] text-center">
                 <p className="  cursor-pointer text-[50px] md:text-[60px] lg:text-[100px] text-white">
